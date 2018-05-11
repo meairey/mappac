@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 
 # parse version string from the __init__ file
-with open("Project/__init__.py", "r") as initfile:
+with open("mappac/__init__.py", "r") as initfile:
     lines = initfile.readlines()
     for line in lines:
         if "__version__" in line:
